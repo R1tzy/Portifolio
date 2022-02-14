@@ -431,11 +431,11 @@ footer p > span{
         position: absolute;
         width: 100%;
         top: 6em;
-        left: 0;
+        left: 35vw;
         height:0px;
         z-index: 1000;
         transition: .3s all linear;
-        overflow-y: hidden;
+        overflow-y: hidden;   
     }
 
     ul{

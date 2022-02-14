@@ -180,7 +180,7 @@ ul > li{
     text-align: center;
     color: var(--gray);
     max-width: 745px;
-    min-width: 300px;
+    min-width: 280px;
 }
 
 .conteudo-contato{
@@ -401,11 +401,6 @@ ul > li{
     margin: 35px auto;
 }
 
-footer{
-    background-color: var(--gray-400);
-    height: 60px;
-    margin: 0 -150px;
-}
 
 footer p{
     text-align: center;
@@ -436,7 +431,7 @@ footer p > span{
         position: absolute;
         width: 100%;
         top: 6em;
-        left: 150px;
+        left: 0;
         height:0px;
         z-index: 1000;
         transition: .3s all linear;
@@ -511,31 +506,24 @@ footer p > span{
 
 @media (max-width:400px){
     body{
-        display: block;
-        margin: 1em auto;
-        
+       margin: 0.9em;
+    }
+
+    .imagem01{
+        width: auto;
+        max-width: 280px;
     }
 
     ul{
-        left: 1em;
+        padding-left: 1em;
         margin-top: -25px;
     }
-/* 
-    .imagem01{
-        display: block;
-        margin: 0 auto;
-        width: 280px;
+
+    .card-serviços{
+        max-width: 280px;
     }
 
-    .conteudo-info p{
-       padding: 0 5px;
+    .projeto-card{
+        max-width: 280px;
     }
-
-    .projeto-card, .card-serviços{
-        width: 280px;
-    }
-
-    .projeto-conteudo{
-        margin-left: -13px;
-    } */
 }
